@@ -1,0 +1,15 @@
+[ wait ]  starting the development server ...
+[ info ]  waiting on http://localhost:3000 ...
+[ ready ] compiled successfully - ready on http://localhost:3000
+[ wait ]  compiling ...
+[ event ] build page: /
+[ ready ] compiled successfully - ready on http://localhost:3000
+[ event ] build page: /next/dist/pages/_error
+[ wait ]  compiling ...
+[ ready ] compiled successfully - ready on http://localhost:3000
+is a batman
+is a batman
+is a batman
+is a batman
+is a batman
+is a batman

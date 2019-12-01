@@ -1,0 +1,22 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next > next.log",
+    "build": "next build  > build.log",
+    "start": "next start  > next.log"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "winston": "^3.2.1",
+    "winston-elasticsearch": "^0.8.2"
+  }
+}

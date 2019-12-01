@@ -1,0 +1,1 @@
+sudo metricbeat -e -c /home/guestsudo/Projects/.um/tempo/elk/metricbeat.yml -d "publish"

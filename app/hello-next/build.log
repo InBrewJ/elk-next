@@ -1,0 +1,16 @@
+Creating an optimized production build...
+
+Compiled successfully.
+
+Automatically optimizing pages...
+
+Page            Size
+┌ σ /           1.72 kB
+├   /_app       221 kB
+├   /_document
+├   /_error     7.38 kB
+└ * /admin      421 B
+
+σ  (Server)       page will be server rendered (i.e. getInitialProps)
+*  (Static File)  page was prerendered as static HTML
+

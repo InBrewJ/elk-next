@@ -1,0 +1,26 @@
+metricbeat.modules:
+- module: system
+  metricsets:
+    - cpu
+    - filesystem
+    - memory
+    - network
+    - process
+  enabled: true
+  period: 10s
+  processes: ['.*']
+  cpu_ticks: false
+
+fields:
+  env: dev
+
+output.elasticsearch:
+  # Array of hosts to connect to.
+  hosts: ["localhost:9200"]
+  username: "elastic"
+  password: "changeme"
+
+setup.kibana:
+  host: "localhost:5601"
+  username: "elastic"  
+  password: "changeme"
